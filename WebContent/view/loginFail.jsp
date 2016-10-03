@@ -8,11 +8,10 @@
 </head>
 <body>
 
-	<form action="/helloMVC/doLogin" method="get">
-		Customer ID(id001, id002, id003, id004, id005):
-		<input type="text" name="customerId" /> <br/>
-		<input type="submit" value="press"/>
-	</form>
+<h1>Login Failed : ${id} is not present</h1>
+<p>
+<a href="/helloMVC/index.jsp">go to home page</a>
+</p>
 
 </body>
 </html>
